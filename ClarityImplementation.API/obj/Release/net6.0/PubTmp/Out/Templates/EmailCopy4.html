@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity Plan(s) Implementation Reminder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            color: #2367a4;
+        }
+
+        p {
+            color: #333333;
+        }
+
+        a {
+            color: #2367a4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><strong>Dear {{first_name}} {{last_name}},</strong>,</p>
+        <p>Don’t Forget to Complete Your Clarity Plan(s) Implementation.</p>
+        <p>You are receiving this alert because your implementation has not been completed. Please login and click on the link below to complete your implementation for {{company}} Clarity plan(s).</p>
+        <p><a href="https://portal.claritybenefitsolutions.com/public/"><strong>Complete Your Implementation Now</strong></a></p>
+        <p><b>To complete your implementation:</b></p>
+        <ul>
+            <li>Review and confirm your Company Profile</li>
+            <li>Review and confirm the Funding method you prefer</li>
+            <li>Review and confirm your Employee Benefit and/or COBRA plan details</li>
+            <li>Access helpful employee Communications</li>
+            <li>Upload enrollment files</li>
+        </ul>
+        <p><b>Helpful Resources:</b></p>
+        <ul>
+            <li>
+                View our helpful implementation <a href="https://portal.claritybenefitsolutions.com/learn_more/clarity-implementation-tool-steps/" target="_blank">overview</a>,
+                <a href="https://portal.claritybenefitsolutions.com/learn_more/clarity-implementation-checklist/" target="_blank">checklist</a>,
+                <a href="https://portal.claritybenefitsolutions.com/learn_more/clarity-implementation-key-milestones/" target="_blank">timeline</a>.
+            </li>
+
+        </ul>
+        <p>Should you have any questions along the way, please contact {{is_name}} at <a href="mailto:{{is_email}}">{{is_email}}</a>.</p>
+
+        <p>Sincerely,<br>Your Clarity Benefit Solutions Team</p>
+    </div>
+</body>
+</html>

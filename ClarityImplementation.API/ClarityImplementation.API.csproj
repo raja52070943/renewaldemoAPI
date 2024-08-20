@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  
+	  
+	  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Templates\CompleteEmail.html" />
+    <None Remove="Templates\ContactChangeRequest.html" />
+    <None Remove="Templates\EmailCopy1.html" />
+    <None Remove="Templates\EmailCopy2.html" />
+    <None Remove="Templates\EmailCopy3.html" />
+    <None Remove="Templates\EmailCopy4.html" />
+    <None Remove="Templates\EmailToCollaborators.html" />
+    <None Remove="Templates\FailureEmail.html" />
+    <None Remove="Templates\FileUploadEmail.html" />
+    <None Remove="Templates\FileUploadRemainder1.html" />
+    <None Remove="Templates\FileuploadRemainder2.html" />
+    <None Remove="Templates\FileUploadRemainder3.html" />
+    <None Remove="Templates\Template1.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Templates\CompleteEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\ContactChangeRequest.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\EmailCopy1.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\EmailCopy2.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\EmailCopy3.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\EmailCopy4.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\EmailToCollaborators.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\FailureEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\FileUploadEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\FileUploadRemainder1.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\FileuploadRemainder2.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\FileUploadRemainder3.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Template1.html" />
+  </ItemGroup>
+	
+	
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="MimeKit" Version="4.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+	
+	
+
+  <ItemGroup>
+    <Folder Include="Models\Case\" />
+  </ItemGroup>
+
+</Project>

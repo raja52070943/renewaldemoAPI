@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <style>
+        table {
+            font-size: 15px;
+            line-height: 135%;
+            border-collapse: collapse;
+            width: 100%;
+            border-bottom: 1px solid rgb(191, 195, 200);
+        }
+
+        th, td {
+            text-align: left;
+            color: #555555;
+            padding: 7px 9px;
+            vertical-align: top;
+            border-top: 1px solid #BFC3C8;
+            background-color: #ffffff;
+        }
+
+        th {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0">
+        <tbody>
+            <tr>
+                <th>Task Type:</th>
+                <td>Portal Contact Change Request</td>
+            </tr>
+            <tr>
+                <th>Assigned to:</th>
+                <td>{{caseOwner_first_name}} {{caseOwner_last_name}}</td>
+            </tr>
+            <tr>
+                <th>Due Date:</th>
+                <td>Same day as submission</td>
+            </tr>
+            <tr>
+                <th>Comments:</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th>First Name:</th>
+                <td>{{curr_user_first_name}} </td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td>{{curr_user_last_name}}</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>x@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Phone:</th>
+                <td>xxxxxxxxxx</td>
+            </tr>
+            <tr>
+                <th>Contact Type:</th>
+                <td>Client</td>
+            </tr>
+            <tr>
+                <th>Organization Name:</th>
+                <td>{{company}}</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+</html>

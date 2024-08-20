@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Clarity Benefit Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        p {
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #2367a4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <table border="0" width="640px" cellspacing="0" cellpadding="0" align="center" style="margin-top: 20px; border:1px solid #a8adad; background-color:#ffffff">
+            <tbody>
+                <tr>
+                    <td style="padding:25px; background-color:#f6f4f4; border-bottom:1px solid #a8adad">
+                        <img src="https://miniorange.s3.amazonaws.com/public/images/customer-logos/73e4febb6a5fc90acb8a89f143999b07-225341-logo.png" width="173" height="35" alt="Clarity Benefit Solutions">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="container">
+            <p><strong>Dear {{first_name}} {{last_name}},</strong></p>
+
+            <p>We are happy to inform you that {{company}} implementation is almost complete!</p>
+
+            <p><strong>Next Step? Upload Your Enrollment File(s)</strong></p>
+            <p>Please login to the Clarity Portal, go to the File Uploads section in the <a href="https://portal.claritybenefitsolutions.com/?option=saml_user_login" target="_blank">Implementation Tool</a> and drag and drop or browse to upload your file(s).</p>
+
+            <p><a href="https://portal.claritybenefitsolutions.com/?option=saml_user_login" target="_blank">Upload Documents Now</a></p>
+
+            <p>Should you have any questions along the way, please contact {{is_name}} at <a href="mailto:{{is_email}}">{{is_email}}</a>.</p>
+
+            <p>Thank you for allowing us to serve your benefit needs,<br>Your Clarity Benefit Solutions Team</p>
+        </div>
+    </div>
+</body>
+</html>

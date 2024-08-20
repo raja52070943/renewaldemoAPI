@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity Benefit Solutions - Alert Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: #2367a4;
+        }
+
+        p {
+            color: #333333;
+        }
+
+        a {
+            color: #2367a4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dear {{RecipientName}},</h1>
+
+        <p>You have a/an Alert/s in the Clarity Benefit Solutions Portal that requires your attention.</p>
+
+        <p><b>Current Alert(s):</b></p>
+        <ul>
+            <li>Implementation Complete and Plan Summary Available</li>
+        </ul>
+
+        <p>For more information and to take action on this alert, please <a href="https://portal.claritybenefitsolutions.com/?option=saml_user_login" target="_blank">Login</a> to the Clarity Benefit Solutions Portal and go to the Alerts section in the top right corner.</p>
+
+        <p>Should you have any questions along the way, please contact {{is_name}} at <a href="mailto:{{is_email}}">{{is_email}}</a>.</p>
+
+        <p>Sincerely,<br>The Clarity Benefit Solutions Team</p>
+    </div>
+</body>
+</html>

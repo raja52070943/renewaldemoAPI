@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Template</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center">
+                <table width="600" cellspacing="0" cellpadding="10" bgcolor="#FFFFFF" style="border:1px solid #DDDDDD;">
+                    <tr>
+                        <td align="center">
+                            <h1>Welcome to Our Service!</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Dear {{RecipientName}},</p>
+                            <p>Thank you for choosing our service. We are excited to have you on board and look forward to assisting you.</p>
+                            <p>Please click the button below to get started:</p>
+                            <p align="center">
+                                <a href="https://google.com" class="button">Get Started</a>
+                            </p>
+                            <p>If you have any questions, feel free to contact our support team.</p>
+                            <p>Best regards,</p>
+                            <p>Your Company Team</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
