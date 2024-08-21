@@ -1,0 +1,11 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.cache
+*.pdb
+*.dbmdl
+*.bak
+*.backup
+*.log
