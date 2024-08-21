@@ -388,6 +388,7 @@ namespace ClarityImplementation.API.Services.SFCases
                     await enrollmentAndEligibilityContactRepository.Add(enrollmentAndEligibilityContact);
 
                     CobraOpenEnrollmentManagement cobraOpenEnrollmentManagement = new CobraOpenEnrollmentManagement();
+                    cobraOpenEnrollmentManagement.OpenEnrollmentMethod = "Participant will Enroll Online with Clarity";
                     cobraOpenEnrollmentManagement.COBRAPlanId = cobraPlan.Id;
                     await cobraOpenEnrollmentManagementRepository.Add(cobraOpenEnrollmentManagement);
                     //COBRAClientContact cobraClientContact = new COBRAClientContact();

@@ -43,7 +43,7 @@ namespace ClarityImplementation.API.Controllers
 
         
         //[HttpGet("{id}")]
-        [HttpGet("ByCOBRAVisionId/{id}")]
+        [HttpGet("ByCOBRAVisionPlanId/{id}")]
         public async Task<ActionResult<VisionCoverageRate>> GetVisionCoverageRates(int id)
         {
             var visionCoverageRates = await repository.GetAllByCompanyId(entity => entity.VisionPlanId == id);

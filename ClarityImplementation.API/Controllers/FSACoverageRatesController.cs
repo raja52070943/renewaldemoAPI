@@ -41,7 +41,7 @@ namespace ClarityImplementation.API.Controllers
         }
 
         //[HttpGet("{id}")]
-        [HttpGet("ByCOBRAFSAId/{id}")]
+        [HttpGet("ByCOBRAFSAPlanId/{id}")]
         public async Task<ActionResult<FSACoverageRate>> GetFSACoverageRates(int id)
         {
             var FSACoverageRates = await repository.GetAllByCompanyId(entity => entity.FSAPlanId == id);
