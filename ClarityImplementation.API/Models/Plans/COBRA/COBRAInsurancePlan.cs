@@ -35,6 +35,13 @@ namespace ClarityImplementation.API.Models.Plans.COBRA
         public string FutureRateStartDate { get; set; }
         public string FutureRateEndDate { get; set; }
 
+        public string IsTerminating { get; set; }
+
+        public string PlanTerminationDate { get; set; }
+
+        public string IsRenewal { get; set; }
+
+
         public List<InsurancePlanCoverageRate> InsurancePlanCoverageRates { get; set; }
 
         public int COBRAPlanId { get; set; }
